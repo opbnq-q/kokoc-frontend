@@ -1,0 +1,45 @@
+.markdown {
+    font-size: 16px;
+    color: #FFFFFF99;
+    font-weight: 400;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: white;
+        margin: 12px 0;
+        font-weight: 600;
+    }
+    ul {
+        list-style: disc;
+    }
+    h1 {
+        font-size: 24px
+    }
+
+    h2 {
+        font-size: 22px
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px
+    }
+
+    h5 {
+        font-size: 16px
+    }
+
+    h6 {
+        font-size: 14px
+    }
+    strong {
+        color: white;
+        font-weight: 500;
+    }
+}
