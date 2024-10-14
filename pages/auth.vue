@@ -58,7 +58,7 @@ const emailInput = useTemplateRef('emailInput')
 const passwordInput = useTemplateRef('passwordInput')
 
 const handleSubmit = async () => {
-    const response = await fetch("https://foot.gogacoder.com/api/auth/register/", {
+    const response = await fetch("https://foot.gogacoder.com/api/auth/login/", {
     method: "POST",
     headers: {
       'Content-Type': "application/json"

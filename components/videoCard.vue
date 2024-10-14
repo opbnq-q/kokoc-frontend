@@ -14,7 +14,8 @@ const props = defineProps<{
   isLive?: boolean,
   title: string,
   duration?: string,
-  id: number
+  id: number,
+  
 }>()
 </script>
 

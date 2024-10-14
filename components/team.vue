@@ -5,7 +5,7 @@
           :image="`https://foot.gogacoder.com/api/team/members/avatars/${member.id}`" :name="member.name"
           :role="member.role" :id="member.id" v-show="member.role !== 'coach'" />
       </div>
-      <h1 class="text-center font-[600] text-2xl">Тренеры</h1>
+      <h1 class="text-center font-[600] text-2xl text-white">Тренеры</h1>
       <div class="flex gap-10">
         <Member v-for="member in [...members[0], ...members[1]]"
           :image="`https://foot.gogacoder.com/api/team/members/avatars/${member.id}`" :name="member.name"

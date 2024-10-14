@@ -5,7 +5,7 @@
         <img :src="`https://foot.gogacoder.com/api/users/avatars/${props.authorId}`" class="rounded-full w-8 h-8 absolute -z-10 blur-[40px]"/>
         <img :src="`https://foot.gogacoder.com/api/users/avatars/${props.authorId}`" class="rounded-full w-8 h-8 relative"/>
       </div>
-      <p class="text-[20px] font-[500] text-[#FFFFFF99]">{{ props.author.firstName }} {{ props.author.lastName }}</p>
+      <p v-if="props?.author?.firstName && props?.author?.lastName" class="text-[20px] font-[500] text-[#FFFFFF99]">{{ props?.author?.firstName }} {{ props?.author?.lastName }}</p>
       <p class="text-[14px] ml-2 font-normal text-[#FFFFFF3D]">{{ dateConversion(props.createdAt) }}</p>
     </div>
     <p class="text-[#FFFFFF99] text-[16px] font-[400] mt-4">
