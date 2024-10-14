@@ -12,7 +12,7 @@
       <div class="w-full h-full p-[16px_20px] flex flex-col gap-2">
         <div class="flex justify-between items-center">
           <h1 class="font-medium text-xl text-white h-6 flex items-center gap-1">{{ props.product.discount ?
-            props.product.price - props.product.discount : props.product.price }}<p class="text-sm">₽</p> <s
+            props.product.price - props.product.discount : props.product.price }}<p class="text-sm">₽</p><s
               class="text-xs text-[#FFFFFF99] font-normal">{{ props.product.discount ? props.product.price : "" }}</s>
           </h1>
           <button class="text-white text-3xl" @click="cartStore.remove(props.index)">&times;</button>
